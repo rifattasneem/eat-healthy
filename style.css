@@ -9,6 +9,7 @@ body {
 
 .container {
    display: flex;
+   justify-content: center;
    align-items: center;
    padding: 0 5%;
 }
@@ -103,9 +104,10 @@ body {
    padding: 72px 0;
 }
 
-.my-recipies .half-width {
+.my-recipies .half-width,
+.count {
    padding: 30px;
-   border-radius: 45px;
+   border-radius: 30px;
    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
 }
 
@@ -132,4 +134,33 @@ body {
    margin-bottom: 10px;
    font-size: 28px;
    font-weight: 800;
+}
+
+.countdown .one-third-width {
+   padding: 25px;
+}
+
+.countdown h2 {
+   font-size: 48px;
+   font-weight: 700;
+}
+
+.countdown p {
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.count {
+   width: 100%;
+   margin: 30px 0 100px 0;
+   padding: 30px 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.count .one-third-width {
+   width: 33.33%;
+   display: grid;
+   justify-content: center;
 }
