@@ -7,10 +7,6 @@ body {
    font-family: 'Montserrat', sans-serif;
 }
 
-section {
-   padding: 50px 0 80px;
-}
-
 .container {
    display: flex;
    align-items: center;
@@ -19,6 +15,10 @@ section {
 
 .half-width {
    width: 50%;
+}
+
+.hero-section {
+   padding: 50px 0 80px;
 }
 
 .hero-section .half-width h1 {
@@ -37,15 +37,16 @@ section {
 }
 
 .hero-section .half-width p {
+   margin-right: 60px;
    margin-bottom: 49px;
    font-size: 20px;
    font-weight: 500;
    color: #828282;
    line-height: 1.6;
-   letter-spacing: -2;
 }
 
-.hero-section .half-width a {
+.hero-section .half-width a,
+.about-me .half-width a {
    padding: 22.5px 43px;
    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
    font-size: 18px;
@@ -58,4 +59,39 @@ section {
 
 .hero-section .half-width img {
    width: 100%;
+}
+
+.about-me {
+   padding-top: 70px;
+   background-image: url(images/7.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+.about-me .half-width {
+   margin: 0 5%;
+}
+
+.about-me .half-width:first-child {
+   text-align: center;
+}
+
+.about-me .half-width img {
+   width: 64.5%;
+   text-align: center;
+}
+
+.about-me .half-width h2 {
+   margin-bottom: 32px;
+   font-size: 40px;
+   font-weight: 700;
+   color: #707070;
+}
+
+.about-me .half-width p {
+   margin-bottom: 70px;
+   font-size: 18px;
+   font-weight: 400;
+   color: #18191F;
+   line-height: 32px;
 }
